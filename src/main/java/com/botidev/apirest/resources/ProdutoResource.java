@@ -23,7 +23,7 @@ import com.botidev.apirest.repository.ProdutoRepository;
 
 
 
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(value="/api")
 
